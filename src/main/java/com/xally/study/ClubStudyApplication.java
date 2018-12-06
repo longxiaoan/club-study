@@ -19,7 +19,7 @@ import org.springframework.statemachine.StateMachine;
 
 	@Override public void run(String... args) throws Exception {
 		stateMachine.start();
-		stateMachine.sendEvent(Events.PAY);
-		stateMachine.sendEvent(Events.RECEIVE);
+		//stateMachine.sendEvent(Events.PAY);
+		//stateMachine.sendEvent(Events.RECEIVE);
 	}
 }

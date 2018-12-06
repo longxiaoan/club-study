@@ -11,7 +11,9 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -96,6 +98,16 @@ public class ClubStudyApplicationTests {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	@Test
+	public void subTest(){
+		List<Map<String, String>> list = new ArrayList<Map<String, String>>();
+//		HashMap<String, String> map = new HashMap<>();
+//		map.put("aa","123");
+//		map.put("bb","234");
+//		list.add(map);
+		System.out.println(list.toString());
 	}
 
 
